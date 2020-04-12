@@ -13,6 +13,6 @@ app.disable('x-powered-by');
 app.listen(
     process.env.PORT || 5000,
     function () {
-      console.log(`Frontend start on http://admin.msresortsrentals.com:5000`)
+      console.log(`Frontend start on http://ipaddress:port`)
     }
   );
